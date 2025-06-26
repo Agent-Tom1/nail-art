@@ -1,0 +1,95 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nail art project</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        .description p {
+            font-size: 16px;
+            color: #666666;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+        }
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button a {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #4caf50;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button a:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>nail art project</h1>
+        </div>
+        <div class="description">
+            <p>welcome to the nail art project, where creativity meets beauty. our project aims to showcase the art of nail design and provide a platform for nail artists to share their work.</p>
+        </div>
+        <div class="gallery">
+            <img src="images/nail-art1.jpg" alt="nail art 1">
+            <img src="images/nail-art2.jpg" alt="nail art 2">
+            <img src="images/nail-art3.jpg" alt="nail art 3">
+        </div>
+        <div class="button">
+            <a href="https://github.com/username/nail-art">explore on github</a>
+        </div>
+    </div>
+    <script>
+        // add event listener to the button
+        document.queryselector('.button a').addeventlistener('click', function() {
+            // open the github repository in a new tab
+            window.open('https://github.com/username/nail-art', '_blank');
+        });
+    </script>
+</body>
+</html>
